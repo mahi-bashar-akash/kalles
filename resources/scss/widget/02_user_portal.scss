@@ -3,11 +3,6 @@
     .header {
         transition: 0.3s all ease-in-out;
 
-        &.animated-shadow {
-            transition: 0.3s all ease-in-out;
-            box-shadow: 0 0 8px 0 var(--bs-gray);
-        }
-
         .navbar {
 
             .navbar-brand {  }

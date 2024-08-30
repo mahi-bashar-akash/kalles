@@ -1,7 +1,7 @@
 <template>
 
     <header class="w-100 bg-white header small">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
                 <router-link :to="{name: 'home'}" class="navbar-brand fw-bold">
                     Logo
