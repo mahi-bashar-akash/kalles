@@ -1,0 +1,53 @@
+/*-----------------------------------------------------------------
+
+	Theme Name: Website Template
+	Theme URI: http://
+	Description: The Multi-Purpose One Page Template
+	Author:
+	Author URI:
+	Version: 1.0
+
+-------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+
+    [ All Custom Css & Helper Classes ]
+
+   ----------------------------------------------------------------
+
+    == Table Of Content
+
+        === === === components === === ===
+
+        01 = Root
+        02 = Preloader
+        03 = Basic
+        04 = Typography
+        05 = Buttons
+        06 = Backgrounds
+        07 = Forms
+        08 = Functionality
+
+        === === === widget === === ===
+
+        01 = Admin Portal
+        02 = User Portal
+
+-----------------------------------------------------------------*/
+
+/*| --- --- Components --- --- |*/
+
+@import "components/01_root";
+@import "components/02_preloader";
+@import "components/03_basic";
+@import "components/04_typography";
+@import "components/05_buttons";
+@import "components/06_backgrounds";
+@import "components/07_forms";
+@import "components/08_function";
+
+/*| --- --- Widget --- --- |*/
+
+@import "widget/01_admin_portal";
+@import "widget/02_user_portal";
+

@@ -1,0 +1,12 @@
+.text-theme-secondary {
+    color: var(--bs-secondary) !important;
+    transition: 0.3s all ease-in-out !important;
+    border-bottom: 1px dashed var(--bs-secondary) !important;
+
+    &:hover {
+        color: var(--theme) !important;
+        transition: 0.3s all ease-in-out !important;
+        border-bottom: 1px dashed var(--theme) !important;
+    }
+
+}

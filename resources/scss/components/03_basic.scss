@@ -1,0 +1,132 @@
+// dropdown customize
+
+.dropdown {
+    .dropdown-menu {
+        .dropdown-item {
+            transition: 0.3s all ease-in-out !important;
+
+
+            &.secondary {
+                color: var(--bs-secondary) !important;
+            }
+
+            &:hover, &:active, &.router-link-active {
+                transition: 0.3s all ease-in-out !important;
+                background-color: var(--bs-light) !important;
+                color: var(--theme) !important;
+            }
+        }
+    }
+}
+
+// hover effect customize
+
+.scale-effect {
+
+    img {
+        scale: 1;
+        transition: 0.57s all ease-in-out;
+        background-position: top center !important;
+
+        &:hover {
+            transition: 0.57s all ease-in-out;
+            scale: 1.2;
+        }
+
+    }
+
+}
+
+.scale-rotate {
+    img {
+        scale: 1;
+        transform: rotate(0deg);
+        transition: 0.75s all ease-in-out;
+    }
+
+    &:hover {
+        img {
+            scale: 1.7;
+            transform: rotate(20deg);
+            transition: 0.75s all ease-in-out;
+        }
+    }
+
+}
+
+.transform-up {
+    img {
+        transition: 0.75s all ease-in-out;
+        scale: 1.4;
+        transform:translateY(20px);
+    }
+
+    &:hover {
+        img {
+            transform:translateY(-20px);
+            transition: 0.75s all ease-in-out;
+        }
+    }
+
+}
+
+.effect-vanish {
+    .img {
+        transition: 0.75s all ease-in-out;
+        opacity: 0;
+    }
+
+    &:hover {
+        .img {
+            transition: 0.75s all ease-in-out;
+            opacity: 1;
+        }
+    }
+
+}
+
+// paragraph truncate
+
+.truncate-to-line-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.truncate-to-line-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.truncate-to-line-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.truncate-to-line-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.truncate-to-line-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.border-bottom-dash {
+    border-bottom: 1px dashed;
+
+    &.border-color-secondary {
+        border-color: var(--bs-secondary);
+    }
+
+}
