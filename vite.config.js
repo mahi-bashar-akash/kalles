@@ -9,7 +9,7 @@ export default defineConfig({
             input: [
                 'resources/scss/stylesheet.scss',
                 'resources/js/spa/admin/app.js',
-                'resources/js/spa/customer/app.js',
+                'resources/js/spa/user/app.js',
             ],
             refresh: true,
         }),
