@@ -14,7 +14,7 @@
         <div class="loader"></div>
     </div>
 
-    <div class="user-portal" id="app"></div>
+    <div class="d-none user-portal" id="app"></div>
 
     <script>
 
