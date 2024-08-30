@@ -8,6 +8,25 @@
     @vite('resources/js/spa/user/app.js')
     @vite('resources/scss/stylesheet.scss')
 </head>
-<body class="user-portal" id="app"></body>
+<body>
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="user-portal" id="app"></div>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.getElementById('preloader').style.display = 'none';
+                document.getElementById('app').classList.remove('d-none');
+            }, 3000);
+        });
+
+    </script>
+
+</body>
 @include('spa.component.script')
 </html>
